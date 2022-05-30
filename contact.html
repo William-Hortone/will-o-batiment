@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ----------Icons links-------- -->
+    <script src="https://kit.fontawesome.com/1eff5ac3a2.js" crossorigin="anonymous"></script>
+      <!-- ----- ------ css bootstrap------- -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <nav class="the_navbar">
+        <p class="website_name"><a href="index.html">Ona Bâtiment</a></p>
+        <p class="open_menu" >menu</p>
+        <ul class="navbar_links">
+            <li class="navbar_link "><a href="about.html">A propos</a></li>
+            <li class="navbar_link"><a href="service.html">Services</a></li>
+            <li class="navbar_link  "><a  href="projets.html">Projets</a></li>
+            <li class="navbar_link  active"><a href="contact.html">Contact</a></li>
+            <button class="button_mode"></button>
+        </ul>  
+    </nav>
+
+    <nav class="open_menu_navbar">
+        <p class="close">Fermer</p>
+        <ul class="open_menu_navbar_links">
+            <li class="open_menu_link"><a href="index.html">Accueil</a></li>
+            <li class="open_menu_link"><a href="about.html">A propos</a></li>
+            <li class="open_menu_link"><a href="service.html">Services</a></li>
+            <li class="open_menu_link"><a href="projets.html">Projets</a></li>
+            <li class="open_menu_link"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <nav class="open_menu_navbar">
+        <p class="close">Fermer</p>
+        <ul class="open_menu_navbar_links">
+            <li class="open_menu_link"><a href="index.html">Accueil</a></li>
+            <li class="open_menu_link"><a href="about.html">A propos</a></li>
+            <li class="open_menu_link"><a href="service.html">Services</a></li>
+            <li class="open_menu_link"><a href="projets.html">Projets</a></li>
+            <li class="open_menu_link"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="contact_page main">
+        <div class="contact_form">
+            <h1>Contact</h1>
+            <div class="contact_container">
+                <form action="page.php" method="post" class="contact">
+                    <p>
+                        <input type="text" id="name" placeholder="Nom">
+                    </p>
+                    <p>
+                    <input type="text" id="email" placeholder="Email">
+                    </p>
+                    <!-- <p>
+                    <input type="text" id="objet" placeholder="Objet">
+                    </p> -->
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
+                    <button type="submit" class="send" >Envoyer</button>
+                </form>
+
+                <div class="social_media">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <div class="contact_address">
+                        <br>
+                        <p>128 rue de la Boétie<br>75008 PARIS</p>
+                        <p><a href="#">Onabatiment@gmail.com</a> <br>+33 000000000 </p>
+                    </div>
+                    <ul class="medias_account">
+                        <br>
+                        <li class="our_medias"><a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+                        <li class="our_medias"><a href="#"><i class="fa-brands fa-linkedin"></i>Linkedin</a></li>
+                        <li class="our_medias"><a href="#"><i class="fa-brands fa-instagram-square"></i>Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<!-- 
+        <div class="contact_image_box">
+            <h3>Parlez-nous de votre projet!</h3>
+            <div class="contact_img"></div>
+        </div> -->
+
+
+
+
+    <script src="index.js"></script>
+</body>    

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/1eff5ac3a2.js" crossorigin="anonymous"></script>
+    <!-- ----- ------ css bootstrap------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- -------------- css link----- -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ona Bâtiment</title>
+</head>
+<body>
+    <header>
+        <div class="header_infos">
+            <div class="logo"><img src="./css/images/logo1 (1).png" alt=""></div>
+            <div class="phone_contact_icon ">
+                <i class="fa-solid fa-phone"></i>
+                <div class="phone_contact diplay_flex">
+                    <h6>Nous contacter  </h6>
+                    <p>Tel : +33 695469273 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +241 7761684 </p>
+                </div>
+            </div>
+            <div class="phone_contact_icon ">
+                <i class="fa-solid fa-clock"></i>
+                <div class="header_time diplay_flex ">
+                    <h6>Nos Horaires de bureau</h6>
+                    <p>Du Lundi au Vendredi  9H à 17H </p>
+                </div>
+            </div>
+            <div class="phone_contact_icon ">
+                
+                <i class="fa-solid fa-map-location-dot"></i>
+                <div class="header_address  diplay_flex"> 
+                    <!-- <br> -->
+                    <h6>Adresse</h6>
+                    <p>Paris France<br>Libreville/ Gabon</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <nav class="open_menu_navbar">
+        <p class="close">Fermer</p>
+        <ul class="open_menu_navbar_links">
+            <li class="open_menu_link"><a href="index.html">Accueil</a></li>
+            <li class="open_menu_link"><a class="link1" href="about.html">A propos</a></li>
+            <li class="open_menu_link"><a href="service.html">Services</a></li>
+            <li class="open_menu_link"><a href="projets.html">Projets</a></li>
+            <li class="open_menu_link"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main class="full_page main">        
+        <nav class="the_navbar home_navbar">
+                <p class="website_name"><a href="index.html">Ona Bâtiment</a></p>
+                <p class="open_menu" >menu</p>
+                <ul class="navbar_links">
+                    <li class="navbar_link"><a href="about.html">A propos</a></li>
+                    <li class="navbar_link"><a href="service.html">Services</a></li>
+                    <li class="navbar_link"><a href="projets.html">Projets</a></li>
+                    <li class="navbar_link"><a href="contact.html">Contact</a></li>
+                    <button class="button_mode"></button>
+                </ul>  
+            </nav>
+        
+        <section class="page"> 
+            <div class="home_container">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./css/images/villa5.jpg" class="d-block w-100" alt="house">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./css/images/house1.jpg" class="d-block w-100" alt="house">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./css/images/house7.jpg" class="d-block w-100" alt="house">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            
+            <div class="our_services">
+                <div class="home_service">
+                    <i class="fa-solid fa-hand-holding-hand"></i>
+                    <p>Nous vous accompagnons dans tous vos projets</p>
+                </div>
+                <div class="home_service">
+                    <i class="fa-solid fa-people-group"></i>
+                    <p>Une équipe à votre écoute pour vous<br>  aider dans la création de votre futur</p>
+                </div>
+                <div class="home_service">
+                    <i class="fa-solid fa-certificate"></i>
+                    <p>Travail dans le respect des règles de l’art</p>
+                </div>
+            </div>
+
+            <div class="home_photo_projet">
+                <a class="one content_image" href="project_2.html">
+                    <span class="blur"></span>
+                    <h3 class="house_name">Appartement </h3>
+                    <!-- <div class="photo_projet "></div> -->
+                </a>
+                <a class="two content_image" href="project_3.html">
+                    <span class="blur"></span>
+                    <h3 class="house_name">Maison</h3>
+                    <div class="photo_projet "></div>
+                </a>
+                <a class="three content_image" href="project_1.html">
+                    <span class="blur"></span>
+                    <h3 class="house_name">Villa</h3>
+                    <div class="photo_projet "></div>
+                </a>
+
+            </div>  
+        </section>
+    </main>
+   
+    <footer class="footer">
+        <span class="footer_blur"></span>
+        <h1 class="footer_title"><strong>ONA BATIMENT</strong> </h1>
+        <div class="footer_infos">
+            <ul class="sociaux_medias">
+                <li class="media"><a target="blank" href="https://www.facebook.com/onaonau"> <i class="fa-brands fa-facebook"></i>Facebook</a>
+                </li>
+                <li class="media"><a target="blank" href="https://www.facebook.com/onaonau"> <i class="fa-brands fa-whatsapp"></i>whatsapp</a>
+                </li>
+                <li class="media"><a target="blank" href="https://www.facebook.com/onaonau"> <i class="fa-brands fa-whatsapp"></i>whatsapp</a>
+                </li>
+                <p class="first_policy">© Ona Batiment 2022</p>
+            </ul>
+            <div class="address">
+                <p>Paris / France<br> Nzeng Ayong / <br>Libreville / Gabon</p>
+                <p><a href="mailto:onabatiment@gmail.com">onabatiment@gmail.com</a></p>
+                <p><a href="https://api.whatsapp.com/send?phone=33695469273">+33 695469273</a> </p>
+                <p class="policy">Privacy Policy</p>
+            </div>
+            <div class="second_address">
+                <p> Nzeng Ayong / <br>Libreville / Gabon <br>Paris / France</p>
+                <p><a href="mailto:onabatiment@gmail.com">onabatiment@gmai.com </a></p>
+                <p><a href="https://api.whatsapp.com/send?phone=2417761684">+241 7761684</a> </p>
+                <p class="policy3">Develloped by Willimam Hortone</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
